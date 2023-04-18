@@ -26849,6 +26849,27 @@ ${t}`
             LIGHT: "light",
             LOGOUT: "LOGOUT",
             MERCH: "MERCH",
+	    WI: "[RU] WI",
+	TDOT: "[RU] TDOT",
+	THEBOX: "[RU] THEBOX",
+	AESTUDIOS: "[RU] AE",
+	TRS: "[RU] TRANSLATIUM",
+	BURS: "[BY] THEBOX",
+	ES: "[ES] JACKBOX.LOL",
+	IT: "[IT] JACKBOX.LOL",
+	FR: "[FR] LA BOX DE JACK",
+	TR: "[TR] JACKBOX.TV.TR",
+	ESP: "[ESPERANTO]",
+	CN: "[CN] ZESTY",
+	JT: "[SID3R] OLD.JACKBOX.TV",
+	NEWJT: "[SID3R] JACKBOX.TV",
+	CAPY: "[EN] CAPYPARTY.XYZ",
+	KAPPA: "[EN] KAPPABOX",
+	RU: "[RU] JACKBOX.RU",
+	TRGU: "[RU] TRGU.RU",
+	R1: "[RU] R1MODS",
+	PUSKA: "[RU] JACKBOX.PRO",
+	    JRF: "[RU] OLD THEBOX",
             PAST_GAMES: "PAST GAMES",
             MAILING_LIST: "MAILING LIST",
             MODERATOR: "MODERATOR"
@@ -29023,10 +29044,94 @@ de tu lista de partidas anteriores.`,
             onKeyup: t[0] || (t[0] = Ns((...f) => e.onTwitchLoginClick && e.onTwitchLoginClick(...f), ["enter"])),
             onClick: t[1] || (t[1] = zt((...f) => e.onTwitchLoginClick && e.onTwitchLoginClick(...f), ["prevent"]))
         }, Ce(e.$t("MENU.TWITCH")), 33)])), z("li", wse, [z("a", Ise, Ce(e.$t("MENU.MODERATOR")), 1)]), z("li", null, [z("a", {
-            href: "http://help.jackboxgames.com",
+            href: "http://jackboxgames.ru",
             target: "_blank",
             onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
-        }, Ce(e.$t("MENU.HELP")), 1)]), z("li", null, [z("a", {
+        }, Ce(e.$t("MENU.WI")), 1)]),z("li", null, [z("a", {
+            href: "http://tdot.space",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.TDOT")), 1)]),z("li", null, [z("a", {
+            href: "http://discord.com",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.THEBOX")), 1)]),z("li", null, [z("a", {
+            href: "http://aestudios.ml",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.AESTUDIOS")), 1)]),z("li", null, [z("a", {
+            href: "https://discord.gg/w9bYmrVu",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.TRS")), 1)]),z("li", null, [z("a", {
+            href: "http://perakladi.cf",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.BURS")), 1)]),z("li", null, [z("a", {
+            href: "https://jackbox.lol",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.es")), 1)]), z("li", null, [z("a", {
+            href: "https://jackbox.lol/",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.it")), 1)]),z("li", null, [z("a", {
+            href: "https://laboxdejack.fr",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.FR")), 1)]),z("li", null, [z("a", {
+            href: "https://jackbox.tv.tr/",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.TR")), 1)]),z("li", null, [z("a", {
+            href: "https://mojosatapiro.github.io/jackbox-eo.github.io/",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.ESP")), 1)]),z("li", null, [z("a", {
+            href: "http://zesty.tpddns.cn:8090/",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.CN")), 1)]),z("li", null, [z("a", {
+            href: "https://sid3r.net/jackbox-tv/",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.JT")), 1)]),z("li", null, [z("a", {
+            href: "https://jackbox-int.github.io",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.NEWJT")), 1)]),z("li", null, [z("a", {
+            href: "https://capyparty.xyz",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.CAPY")), 1)]),z("li", null, [z("a", {
+            href: "https://play.kappabox.live",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.KAPPA")), 1)]),z("li", null, [z("a", {
+            href: "https://jackbox.ru",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.RU")), 1)]),z("li", null, [z("a", {
+            href: "https://jack.trgu.ru/",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.TRGU")), 1)]),z("li", null, [z("a", {
+            href: "https://nineteen.gq/",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.R1")), 1)]),z("li", null, [z("a", {
+            href: "https://jackbox.pro",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.PUSKA")), 1)]),z("li", null, [z("a", {
+            href: "https://jack.trgu.ru/",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.tRGU")), 1)]),z("li", null, [z("a", {
+            href: "https://jackbox-rf.pages.dev/",
+            target: "_blank",
+            onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
+        }, Ce(e.$t("MENU.JRF")), 1)]),z("li", null, [z("a", {
             href: "https://shop.jackboxgames.com",
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
